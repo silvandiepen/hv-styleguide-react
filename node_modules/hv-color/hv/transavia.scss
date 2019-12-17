@@ -1,0 +1,309 @@
+$hv-colors: (
+  "Green": #00d66c,
+  "GreenDark": #1e9162,
+  "GreenLight": #4de298,
+  "Ruby": #ff3268,
+  "RubyDark": #ca2b55,
+  "RubyLight": #ff658e,
+  "Blue": #2800a0,
+  "BlueDark": #120145,
+  "BlueLight": #5e40b8,
+  "Champagne": #f3e5d8,
+  "GrayDarkest": #202020,
+  "GrayDarker": #606060,
+  "GrayDark": #909090,
+  "GrayMid": #cccccc,
+  "GrayLight": #e6e6e6,
+  "GrayLigher": #f7f7f7,
+  "GrayLightest": #f0f0f0,
+  "Black": #000000,
+  "White": #ffffff
+);
+
+$hv-colors-extended: (
+  "Green": (
+    "r": 0,
+    "g": 214,
+    "b": 108,
+    "h": 150.2803738317757,
+    "s": 100,
+    "l": 41.96078431372549
+  ),
+  "GreenDark": (
+    "r": 30,
+    "g": 145,
+    "b": 98,
+    "h": 155.47826086956522,
+    "s": 65.71428571428571,
+    "l": 34.31372549019608
+  ),
+  "GreenLight": (
+    "r": 77,
+    "g": 226,
+    "b": 152,
+    "h": 150.2013422818792,
+    "s": 71.9806763285024,
+    "l": 59.411764705882355
+  ),
+  "Ruby": (
+    "r": 255,
+    "g": 50,
+    "b": 104,
+    "h": 344.1951219512195,
+    "s": 100,
+    "l": 59.80392156862745
+  ),
+  "RubyDark": (
+    "r": 202,
+    "g": 43,
+    "b": 85,
+    "h": 344.1509433962264,
+    "s": 64.89795918367346,
+    "l": 48.0392156862745
+  ),
+  "RubyLight": (
+    "r": 255,
+    "g": 101,
+    "b": 142,
+    "h": 344.02597402597405,
+    "s": 100,
+    "l": 69.80392156862744
+  ),
+  "Blue": (
+    "r": 40,
+    "g": 0,
+    "b": 160,
+    "h": 255,
+    "s": 100,
+    "l": 31.372549019607842
+  ),
+  "BlueDark": (
+    "r": 18,
+    "g": 1,
+    "b": 69,
+    "h": 255,
+    "s": 97.14285714285715,
+    "l": 13.72549019607843
+  ),
+  "BlueLight": (
+    "r": 94,
+    "g": 64,
+    "b": 184,
+    "h": 255,
+    "s": 48.38709677419355,
+    "l": 48.627450980392155
+  ),
+  "Champagne": (
+    "r": 243,
+    "g": 229,
+    "b": 216,
+    "h": 28.888888888888925,
+    "s": 52.94117647058819,
+    "l": 89.99999999999999
+  ),
+  "GrayDarkest": (
+    "r": 32,
+    "g": 32,
+    "b": 32,
+    "h": 0,
+    "s": 0,
+    "l": 12.549019607843137
+  ),
+  "GrayDarker": (
+    "r": 96,
+    "g": 96,
+    "b": 96,
+    "h": 0,
+    "s": 0,
+    "l": 37.64705882352941
+  ),
+  "GrayDark": (
+    "r": 144,
+    "g": 144,
+    "b": 144,
+    "h": 0,
+    "s": 0,
+    "l": 56.470588235294116
+  ),
+  "GrayMid": (
+    "r": 204,
+    "g": 204,
+    "b": 204,
+    "h": 0,
+    "s": 0,
+    "l": 80
+  ),
+  "GrayLight": (
+    "r": 230,
+    "g": 230,
+    "b": 230,
+    "h": 0,
+    "s": 0,
+    "l": 90.19607843137256
+  ),
+  "GrayLigher": (
+    "r": 247,
+    "g": 247,
+    "b": 247,
+    "h": 0,
+    "s": 0,
+    "l": 96.86274509803921
+  ),
+  "GrayLightest": (
+    "r": 240,
+    "g": 240,
+    "b": 240,
+    "h": 0,
+    "s": 0,
+    "l": 94.11764705882352
+  ),
+  "Black": (
+    "r": 0,
+    "g": 0,
+    "b": 0,
+    "h": 0,
+    "s": 0,
+    "l": 0
+  ),
+  "White": (
+    "r": 255,
+    "g": 255,
+    "b": 255,
+    "h": 0,
+    "s": 0,
+    "l": 100
+  )
+);
+
+$hv-Green: #00d66c;
+$hv-Green-s: 100;
+$hv-Green-l: 41.96078431372549;
+$hv-Green-r: 0;
+$hv-Green-g: 214;
+$hv-Green-b: 108;
+
+$hv-GreenDark: #1e9162;
+$hv-GreenDark-s: 65.71428571428571;
+$hv-GreenDark-l: 34.31372549019608;
+$hv-GreenDark-r: 30;
+$hv-GreenDark-g: 145;
+$hv-GreenDark-b: 98;
+
+$hv-GreenLight: #4de298;
+$hv-GreenLight-s: 71.9806763285024;
+$hv-GreenLight-l: 59.411764705882355;
+$hv-GreenLight-r: 77;
+$hv-GreenLight-g: 226;
+$hv-GreenLight-b: 152;
+
+$hv-Ruby: #ff3268;
+$hv-Ruby-s: 100;
+$hv-Ruby-l: 59.80392156862745;
+$hv-Ruby-r: 255;
+$hv-Ruby-g: 50;
+$hv-Ruby-b: 104;
+
+$hv-RubyDark: #ca2b55;
+$hv-RubyDark-s: 64.89795918367346;
+$hv-RubyDark-l: 48.0392156862745;
+$hv-RubyDark-r: 202;
+$hv-RubyDark-g: 43;
+$hv-RubyDark-b: 85;
+
+$hv-RubyLight: #ff658e;
+$hv-RubyLight-s: 100;
+$hv-RubyLight-l: 69.80392156862744;
+$hv-RubyLight-r: 255;
+$hv-RubyLight-g: 101;
+$hv-RubyLight-b: 142;
+
+$hv-Blue: #2800a0;
+$hv-Blue-s: 100;
+$hv-Blue-l: 31.372549019607842;
+$hv-Blue-r: 40;
+$hv-Blue-g: 0;
+$hv-Blue-b: 160;
+
+$hv-BlueDark: #120145;
+$hv-BlueDark-s: 97.14285714285715;
+$hv-BlueDark-l: 13.72549019607843;
+$hv-BlueDark-r: 18;
+$hv-BlueDark-g: 1;
+$hv-BlueDark-b: 69;
+
+$hv-BlueLight: #5e40b8;
+$hv-BlueLight-s: 48.38709677419355;
+$hv-BlueLight-l: 48.627450980392155;
+$hv-BlueLight-r: 94;
+$hv-BlueLight-g: 64;
+$hv-BlueLight-b: 184;
+
+$hv-Champagne: #f3e5d8;
+$hv-Champagne-s: 52.94117647058819;
+$hv-Champagne-l: 89.99999999999999;
+$hv-Champagne-r: 243;
+$hv-Champagne-g: 229;
+$hv-Champagne-b: 216;
+
+$hv-GrayDarkest: #202020;
+$hv-GrayDarkest-s: 0;
+$hv-GrayDarkest-l: 12.549019607843137;
+$hv-GrayDarkest-r: 32;
+$hv-GrayDarkest-g: 32;
+$hv-GrayDarkest-b: 32;
+
+$hv-GrayDarker: #606060;
+$hv-GrayDarker-s: 0;
+$hv-GrayDarker-l: 37.64705882352941;
+$hv-GrayDarker-r: 96;
+$hv-GrayDarker-g: 96;
+$hv-GrayDarker-b: 96;
+
+$hv-GrayDark: #909090;
+$hv-GrayDark-s: 0;
+$hv-GrayDark-l: 56.470588235294116;
+$hv-GrayDark-r: 144;
+$hv-GrayDark-g: 144;
+$hv-GrayDark-b: 144;
+
+$hv-GrayMid: #cccccc;
+$hv-GrayMid-s: 0;
+$hv-GrayMid-l: 80;
+$hv-GrayMid-r: 204;
+$hv-GrayMid-g: 204;
+$hv-GrayMid-b: 204;
+
+$hv-GrayLight: #e6e6e6;
+$hv-GrayLight-s: 0;
+$hv-GrayLight-l: 90.19607843137256;
+$hv-GrayLight-r: 230;
+$hv-GrayLight-g: 230;
+$hv-GrayLight-b: 230;
+
+$hv-GrayLigher: #f7f7f7;
+$hv-GrayLigher-s: 0;
+$hv-GrayLigher-l: 96.86274509803921;
+$hv-GrayLigher-r: 247;
+$hv-GrayLigher-g: 247;
+$hv-GrayLigher-b: 247;
+
+$hv-GrayLightest: #f0f0f0;
+$hv-GrayLightest-s: 0;
+$hv-GrayLightest-l: 94.11764705882352;
+$hv-GrayLightest-r: 240;
+$hv-GrayLightest-g: 240;
+$hv-GrayLightest-b: 240;
+
+$hv-Black: #000000;
+$hv-Black-s: 0;
+$hv-Black-l: 0;
+$hv-Black-r: 0;
+$hv-Black-g: 0;
+$hv-Black-b: 0;
+
+$hv-White: #ffffff;
+$hv-White-s: 0;
+$hv-White-l: 100;
+$hv-White-r: 255;
+$hv-White-g: 255;
+$hv-White-b: 255;

@@ -9,4 +9,4 @@ import { defineCustomElements, applyPolyfills } from 'hv-styleguide/loader';
 
 applyPolyfills().then(() => { defineCustomElements(window); });
 export const HvButton = /*@__PURE__*/createReactComponent<JSX.HvButton, HTMLHvButtonElement>('hv-button');
-export const InputField = /*@__PURE__*/createReactComponent<JSX.InputField, HTMLInputFieldElement>('input-field');
+export const HvInputText = /*@__PURE__*/createReactComponent<JSX.HvInputText, HTMLHvInputTextElement>('hv-input-text');

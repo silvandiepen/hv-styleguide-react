@@ -1,0 +1,54 @@
+// Overal Base defaults
+$hv-font-family: "Nexa", sans-serif !default;
+$hv-font-size: 1rem !default;
+$hv-font-color: $hv-Blue !default;
+$hv-border-width: 1px !default;
+$hv-border-color: $hv-Blue !default;
+$hv-border: #{$hv-border-width} solid #{$hv-border-color} !default;
+$hv-border-radius: 0.5rem !default;
+$hv-margin: 1rem !default;
+
+// Padding logic.
+$hv-padding-top: 1rem !default;
+$hv-padding-right: 1rem !default;
+$hv-padding-bottom: 1rem !default;
+$hv-padding-left: 1rem !default;
+$hv-padding: #{$hv-padding-top} #{$hv-padding-right} #{$hv-padding-bottom} #{$hv-padding-left} !default;
+@if $hv-padding-top ==
+	$hv-padding-bottom and
+	$hv-padding-right ==
+	$hv-padding-left and
+	$hv-padding-left ==
+	$hv-padding-top
+{
+	$hv-padding: #{$hv-padding-top} !default;
+} @else if
+	$hv-padding-top ==
+	$hv-padding-bottom and
+	$hv-padding-right ==
+	$hv-padding-left and
+	$hv-padding-left !=
+	$hv-padding-top
+{
+	$hv-padding: #{$hv-padding-top} #{$hv-padding-right} !default;
+}
+
+// Input Defaults
+$hv-input-border: $hv-border !default;
+$hv-input-border-inactive: #{$hv-border-width} solid rgba($hv-GrayDarkest, 0.25) !default;
+$hv-input-border-active: #{$hv-border-width} solid #{$hv-Blue} !default;
+$hv-input-border-disabled: #{$hv-border-width} solid #{$hv-GrayLight} !default;
+$hv-input-padding: $hv-padding !default;
+$hv-input-padding-top: $hv-padding-top !default;
+$hv-input-padding-right: $hv-padding-right !default;
+$hv-input-padding-bottom: $hv-padding-bottom !default;
+$hv-input-padding-left: $hv-padding-left !default;
+$hv-input-border-radius: $hv-border-radius !default;
+$hv-input-font-size: $hv-font-size * 0.9 !default;
+$hv-input-font-family: $hv-font-family !default;
+$hv-input-font-color: $hv-font-color !default;
+
+// Transition Defaults
+$hv-transition-time: 0.2s !default;
+$hv-transition-bezier: ease-in-out !default;
+$hv-transition: #{$hv-transition-time} #{$hv-transition-bezier} !default;

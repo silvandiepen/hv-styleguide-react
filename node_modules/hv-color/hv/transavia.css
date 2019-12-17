@@ -1,0 +1,153 @@
+:root {
+  --hv-Green: #00d66c;
+  --hv-Green-hue: 150.2803738317757;
+  --hv-Green-saturation: 100;
+  --hv-Green-lightness: 41.96078431372549;
+  --hv-Green-red: 0;
+  --hv-Green-green: 214;
+  --hv-Green-blue: 108;
+
+  --hv-GreenDark: #1e9162;
+  --hv-GreenDark-hue: 155.47826086956522;
+  --hv-GreenDark-saturation: 65.71428571428571;
+  --hv-GreenDark-lightness: 34.31372549019608;
+  --hv-GreenDark-red: 30;
+  --hv-GreenDark-green: 145;
+  --hv-GreenDark-blue: 98;
+
+  --hv-GreenLight: #4de298;
+  --hv-GreenLight-hue: 150.2013422818792;
+  --hv-GreenLight-saturation: 71.9806763285024;
+  --hv-GreenLight-lightness: 59.411764705882355;
+  --hv-GreenLight-red: 77;
+  --hv-GreenLight-green: 226;
+  --hv-GreenLight-blue: 152;
+
+  --hv-Ruby: #ff3268;
+  --hv-Ruby-hue: 344.1951219512195;
+  --hv-Ruby-saturation: 100;
+  --hv-Ruby-lightness: 59.80392156862745;
+  --hv-Ruby-red: 255;
+  --hv-Ruby-green: 50;
+  --hv-Ruby-blue: 104;
+
+  --hv-RubyDark: #ca2b55;
+  --hv-RubyDark-hue: 344.1509433962264;
+  --hv-RubyDark-saturation: 64.89795918367346;
+  --hv-RubyDark-lightness: 48.0392156862745;
+  --hv-RubyDark-red: 202;
+  --hv-RubyDark-green: 43;
+  --hv-RubyDark-blue: 85;
+
+  --hv-RubyLight: #ff658e;
+  --hv-RubyLight-hue: 344.02597402597405;
+  --hv-RubyLight-saturation: 100;
+  --hv-RubyLight-lightness: 69.80392156862744;
+  --hv-RubyLight-red: 255;
+  --hv-RubyLight-green: 101;
+  --hv-RubyLight-blue: 142;
+
+  --hv-Blue: #2800a0;
+  --hv-Blue-hue: 255;
+  --hv-Blue-saturation: 100;
+  --hv-Blue-lightness: 31.372549019607842;
+  --hv-Blue-red: 40;
+  --hv-Blue-green: 0;
+  --hv-Blue-blue: 160;
+
+  --hv-BlueDark: #120145;
+  --hv-BlueDark-hue: 255;
+  --hv-BlueDark-saturation: 97.14285714285715;
+  --hv-BlueDark-lightness: 13.72549019607843;
+  --hv-BlueDark-red: 18;
+  --hv-BlueDark-green: 1;
+  --hv-BlueDark-blue: 69;
+
+  --hv-BlueLight: #5e40b8;
+  --hv-BlueLight-hue: 255;
+  --hv-BlueLight-saturation: 48.38709677419355;
+  --hv-BlueLight-lightness: 48.627450980392155;
+  --hv-BlueLight-red: 94;
+  --hv-BlueLight-green: 64;
+  --hv-BlueLight-blue: 184;
+
+  --hv-Champagne: #f3e5d8;
+  --hv-Champagne-hue: 28.888888888888925;
+  --hv-Champagne-saturation: 52.94117647058819;
+  --hv-Champagne-lightness: 89.99999999999999;
+  --hv-Champagne-red: 243;
+  --hv-Champagne-green: 229;
+  --hv-Champagne-blue: 216;
+
+  --hv-GrayDarkest: #202020;
+  --hv-GrayDarkest-hue: 0;
+  --hv-GrayDarkest-saturation: 0;
+  --hv-GrayDarkest-lightness: 12.549019607843137;
+  --hv-GrayDarkest-red: 32;
+  --hv-GrayDarkest-green: 32;
+  --hv-GrayDarkest-blue: 32;
+
+  --hv-GrayDarker: #606060;
+  --hv-GrayDarker-hue: 0;
+  --hv-GrayDarker-saturation: 0;
+  --hv-GrayDarker-lightness: 37.64705882352941;
+  --hv-GrayDarker-red: 96;
+  --hv-GrayDarker-green: 96;
+  --hv-GrayDarker-blue: 96;
+
+  --hv-GrayDark: #909090;
+  --hv-GrayDark-hue: 0;
+  --hv-GrayDark-saturation: 0;
+  --hv-GrayDark-lightness: 56.470588235294116;
+  --hv-GrayDark-red: 144;
+  --hv-GrayDark-green: 144;
+  --hv-GrayDark-blue: 144;
+
+  --hv-GrayMid: #cccccc;
+  --hv-GrayMid-hue: 0;
+  --hv-GrayMid-saturation: 0;
+  --hv-GrayMid-lightness: 80;
+  --hv-GrayMid-red: 204;
+  --hv-GrayMid-green: 204;
+  --hv-GrayMid-blue: 204;
+
+  --hv-GrayLight: #e6e6e6;
+  --hv-GrayLight-hue: 0;
+  --hv-GrayLight-saturation: 0;
+  --hv-GrayLight-lightness: 90.19607843137256;
+  --hv-GrayLight-red: 230;
+  --hv-GrayLight-green: 230;
+  --hv-GrayLight-blue: 230;
+
+  --hv-GrayLigher: #f7f7f7;
+  --hv-GrayLigher-hue: 0;
+  --hv-GrayLigher-saturation: 0;
+  --hv-GrayLigher-lightness: 96.86274509803921;
+  --hv-GrayLigher-red: 247;
+  --hv-GrayLigher-green: 247;
+  --hv-GrayLigher-blue: 247;
+
+  --hv-GrayLightest: #f0f0f0;
+  --hv-GrayLightest-hue: 0;
+  --hv-GrayLightest-saturation: 0;
+  --hv-GrayLightest-lightness: 94.11764705882352;
+  --hv-GrayLightest-red: 240;
+  --hv-GrayLightest-green: 240;
+  --hv-GrayLightest-blue: 240;
+
+  --hv-Black: #000000;
+  --hv-Black-hue: 0;
+  --hv-Black-saturation: 0;
+  --hv-Black-lightness: 0;
+  --hv-Black-red: 0;
+  --hv-Black-green: 0;
+  --hv-Black-blue: 0;
+
+  --hv-White: #ffffff;
+  --hv-White-hue: 0;
+  --hv-White-saturation: 0;
+  --hv-White-lightness: 100;
+  --hv-White-red: 255;
+  --hv-White-green: 255;
+  --hv-White-blue: 255;
+}
