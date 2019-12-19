@@ -1,26 +1,26 @@
 {
-  "name": "hv-styleguide-react",
-  "version": "1.0.0",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+	"name": "hv-styleguide-react",
+	"version": "1.0.0",
+	"main": "src/components.ts",
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "Sil van Diepen",
-  "license": "MIT",
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/silvandiepen/hv-styleguide-react.git"
-  },
-  "keywords": [
-    "styleguide",
-    "react"
-  ],
-  "bugs": {
-    "url": "https://github.com/silvandiepen/hv-styleguide-react/issues"
-  },
-  "homepage": "https://github.com/silvandiepen/hv-styleguide-react#readme",
-  "description": "",
-  "dependencies": {
-    "hv-styleguide": "git+https://github.com/silvandiepen/hv-styleguide.git"
-  }
+	"author": "Sil van Diepen",
+	"license": "MIT",
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/silvandiepen/hv-styleguide-react.git"
+	},
+	"keywords": [
+		"styleguide",
+		"react"
+	],
+	"bugs": {
+		"url": "https://github.com/silvandiepen/hv-styleguide-react/issues"
+	},
+	"homepage": "https://github.com/silvandiepen/hv-styleguide-react#readme",
+	"description": "",
+	"dependencies": {
+		"hv-styleguide": "git+https://github.com/silvandiepen/hv-styleguide.git"
+	}
 }
